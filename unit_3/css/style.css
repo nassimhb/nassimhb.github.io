@@ -6,6 +6,11 @@ body {
 	font-family: Verdana, sans-serif;
 }
 
+body p {
+
+	font-size: 14px;
+}
+
 #slogan{
 	color: #fff;
 	font-size: 16px;
@@ -14,20 +19,28 @@ body {
 
 .parag{
 	width: 1000px;
-	margin-left: 120px;
+	margin-left: 200px;
 	text-align: left;
-	font-size: 14px;
+	line-height: 1.5;
 }
 
 ul{
 	text-align: left;
-	margin-left: 110px;
+	margin-left: 180px;
 	font-size: 12px;
+	line-height: 1.5;
 }
+
 hr{
 	width: 1200px;
 	color: #fff;
 
+}
+
+.contact{
+	text-align: left;
+	margin-left: 200px;
+	
 }
 
 
