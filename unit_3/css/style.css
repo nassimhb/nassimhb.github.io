@@ -3,5 +3,5 @@ body {
 }
 
 #slogan {
-	background-image: url(images/Driving-school.jpg);
+	background-image: url("images/Driving-school.jpg");
 }
