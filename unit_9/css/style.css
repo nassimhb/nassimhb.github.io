@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Carrois+Gothic+SC');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+	text-align: center;
+	align-items: center;
+	background-color: #e5a730;
+	letter-spacing: 1.5px;
+	font-family: Verdana, sans-serif;
+}
+
+body p {
+
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+}
+body h1,h3{
+	font-family: 'Carrois Gothic SC', sans-serif;
+}
+h1{
+	font-size: 34px;
+}
+.first-part img{
+	width: 95%;
+}
+nav a{
+	display: inline-block;
+	width: 12%;
+	color: black;
+}
+nav {
+	max-width: 1024px;
+	display: block;
+	margin: 0 auto;
+	/*width: 100%;*/
+}
+@media (max-width: 800px){
+	nav a{
+	width: 14%;
+
+}
+}
+@media (max-width: 700px){
+	nav a{
+	width: 17%;
+
+}
+}
+@media (max-width: 600px){
+	nav a{
+	width: 100%;
+/*	text-align: left;
+	margin: 0;*/
+}
+}
+
+#examples img{
+	width: 40%;
+}
+
+@media(max-width: 480px){
+	#examples img{
+	width: 57%;
+}
+
+}
+
+#slogan{
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+
+
+}
+
+.parag{
+	width: 1000px;
+	margin-left: 200px;
+	text-align: left;
+	line-height: 1.5;
+}
+
+ul{
+	text-align: left;
+	margin-left: 180px;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+hr{
+	width: 1200px;
+	color: #fff;
+
+}
+
+.contact{
+	text-align: center;
+	
+}
+header, nav, article, section, div, footer{
+    /*border: 1px black solid;*/
+    padding: 20px;
+}
+
+header {
+    background-color: #ffffff;
+}
+nav{
+	ackground-color: #FFED74;
+}
+article{
+	ackground-color: #E89C6C;
+}
+div, section{
+	ackground-color: #FFE2B8;
+
+}
+footer{
+	ackground-color: #FF957E;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.services-left{
+	float: left;
+	width: 30%;
+	padding: 2%;
+	display: block;
+	text-align: left;
+	margin-left: 10%;
+	height: 200px;
+	background-color: #bec0c2;
+	border: none;
+	
+}
+.services-left ul{
+	margin-left: -5%;
+}
+.services-right{
+	float: right;
+	width: 30%;
+	padding: 2%;
+	display: block;
+	text-align: left;
+	margin-right: 10%;
+	height: 200px;
+	background-color: #bec0c2;
+	border: none;
+}
+.parag{
+	width: 97%;
+	display: block;
+	margin-left: 2%;
+}
+.p1, .p2, .p3, .p4{
+	float: left;
+	padding: 5%;
+	background-color: #e4e1dc;
+	
+}
+.p1 {
+	margin-left: 10.5%;
+}
+.p2, .p3, .p4{
+	margin-left: 8.5%;
+}
+
+@media (max-width: 900px){
+	.parag{
+	margin-left: 0%;
+	margin-top: 0%;
+}
+	#services{
+		height: 400px;
+
+	}
+	.services-right, .services-left{
+		height: 70%;
+	}
+}
+@media (max-width: 680px){
+
+	.services-right, .services-left{
+		float: none;
+		width: auto;
+	}
+	#services{
+		height: auto;
+
+	}
+	.services-right, .services-left{
+	float: none;
+    width: auto;
+    margin: 0 auto;
+    padding-left: 5%;
+	}
+	.services-right{
+		background-color: #cdced2;
+	}
+}
+
+@media( max-width: 800px){
+	.p3, .p4, .p2, .p1{
+	float: none;
+    width: 40%;
+    margin: 0 auto;
+	}
+}
