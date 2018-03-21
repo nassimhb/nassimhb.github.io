@@ -2,12 +2,18 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
-	text-align: center;
-	align-items: center;
+	/*text-align: center;*/
+	/*align-items: center;*/
 	background-color: #e5a730;
 	letter-spacing: 1.5px;
 	font-family: Verdana, sans-serif;
 }
+#wrapper header{
+	text-align: center;
+	
+
+}
+
 
 body p {
 
@@ -20,6 +26,7 @@ body h1,h3{
 h1{
 	font-size: 34px;
 }
+
 .first-part img{
 	width: 95%;
 }
@@ -30,10 +37,12 @@ h1{
 #one-about{
 	text-align: left;
 	line-height: 1.5;
+	max-width: 1200px;
+	margin: 0 auto;
 }
-#one-about p{
+/*#one-about p{
 	min-width: 300px;
-}
+}*/
 nav a{
 	display: inline-block;
 	width: 12%;
@@ -60,35 +69,23 @@ nav {
 @media (max-width: 600px){
 	nav a{
 	width: 100%;
+	line-height: 1.5;
 /*	text-align: left;
 	margin: 0;*/
+
+}
+#wrapper nav{
+	padding-top: 0px;
+
 }
 }
 
-#examples img{
-	width: 40%;
-}
-
-@media(max-width: 480px){
-	#examples img{
-	width: 57%;
-}
-
-}
-
-#slogan{
-	color: #fff;
-	font-size: 16px;
-	text-transform: uppercase;
-
-}
-.slogan1{
-	color: #fff;
-	font-size: 16px;
-	text-transform: uppercase;
 
 
 }
+
+
+
 
 
 .parag{
@@ -113,6 +110,8 @@ hr{
 
 .contact{
 	text-align: center;
+	display: block;
+	margin: 0 auto;
 	
 }
 header, nav, article, section, div, footer{
@@ -145,32 +144,7 @@ footer{
     height: 0;
 }
 
-.services-left{
-	float: left;
-	width: 30%;
-	padding: 2%;
-	display: block;
-	text-align: left;
-	margin-left: 10%;
-	height: 200px;
-	background-color: #bec0c2;
-	border: none;
-	
-}
-.services-left ul{
-	margin-left: -5%;
-}
-.services-right{
-	float: right;
-	width: 30%;
-	padding: 2%;
-	display: block;
-	text-align: left;
-	margin-right: 10%;
-	height: 200px;
-	background-color: #bec0c2;
-	border: none;
-}
+
 .parag{
 	width: 97%;
 	display: block;
@@ -194,34 +168,9 @@ footer{
 	margin-left: 0%;
 	margin-top: 0%;
 }
-	#services{
-		height: 400px;
-
-	}
-	.services-right, .services-left{
-		height: 70%;
-	}
+	
 }
-@media (max-width: 680px){
 
-	.services-right, .services-left{
-		float: none;
-		width: auto;
-	}
-	#services{
-		height: auto;
-
-	}
-	.services-right, .services-left{
-	float: none;
-    width: auto;
-    margin: 0 auto;
-    padding-left: 5%;
-	}
-	.services-right{
-		background-color: #cdced2;
-	}
-}
 
 @media( max-width: 800px){
 	.p3, .p4, .p2, .p1{
